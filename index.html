@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shadab Ahamed | Research Portfolio</title>
+  <meta name="description" content="Personal academic website of Shadab Ahamed — AI researcher working on generative modeling, inverse problems, and scientific machine learning." />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">Shadab Ahamed</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Researcher · Scientific Machine Learning · Inverse Problems</p>
+          <h1>Building machine learning methods for imaging, geophysics, and science.</h1>
+          <p class="hero-text">
+            I work on generative modeling, flow matching, inverse problems, and deep learning for scientific imaging.
+            My research sits at the intersection of machine learning theory, practical algorithms, and high-impact applications.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#publications">View Publications</a>
+            <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+          </div>
+          <ul class="hero-links">
+            <li><a href="https://github.com/ahxmeds" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="mailto:your-email@domain.com">Email</a></li>
+          </ul>
+        </div>
+
+        <aside class="profile-card">
+          <div class="profile-photo">SA</div>
+          <h2>Shadab Ahamed</h2>
+          <p class="profile-role">Postdoctoral Researcher</p>
+          <p class="profile-org">University of British Columbia</p>
+          <div class="profile-meta">
+            <span>Vancouver, Canada</span>
+            <span>Flow Matching</span>
+            <span>Medical Imaging</span>
+            <span>Geophysical Inversion</span>
+          </div>
+          <a class="btn btn-outline full-width" href="assets/Shadab_Ahamed_CV.pdf" target="_blank" rel="noreferrer">Download CV</a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container section-grid about-grid">
+        <div>
+          <p class="section-label">About</p>
+          <h2>A concise academic homepage with your research at the center.</h2>
+        </div>
+        <div>
+          <p>
+            I am a researcher working on machine learning for inverse problems and scientific data.
+            My interests include flow matching, score-based modeling, generative priors, uncertainty-aware methods,
+            and scalable architectures for imaging and subsurface inference.
+          </p>
+          <p>
+            I am especially interested in methods that connect elegant mathematical ideas with real-world scientific impact,
+            including medical imaging, geophysics, and physically informed learning.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section section-alt">
+      <div class="container">
+        <p class="section-label">Research</p>
+        <h2>Core research themes</h2>
+        <div class="cards three-up">
+          <article class="card">
+            <h3>Generative Modeling</h3>
+            <p>Flow matching, score-based models, latent generative priors, and efficient training methods for high-dimensional scientific data.</p>
+          </article>
+          <article class="card">
+            <h3>Inverse Problems</h3>
+            <p>Learning-based approaches for reconstructing hidden structure from indirect, noisy, and incomplete measurements.</p>
+          </article>
+          <article class="card">
+            <h3>Scientific AI</h3>
+            <p>Machine learning systems tailored to medical imaging, geophysical inversion, and physically motivated data regimes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Publications</p>
+            <h2>Selected papers</h2>
+          </div>
+          <div class="pub-filter" role="tablist" aria-label="Publication filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ml">ML Theory</button>
+            <button class="filter-btn" data-filter="medical">Medical Imaging</button>
+            <button class="filter-btn" data-filter="geo">Geophysics</button>
+          </div>
+        </div>
+
+        <div class="publication-list">
+          <article class="publication card" data-category="ml">
+            <div class="pub-top">
+              <span class="pub-tag">ML Theory</span>
+              <span class="pub-year">2026</span>
+            </div>
+            <h3>Preconditioned Flow Matching for Scalable Generative Learning</h3>
+            <p class="pub-authors"><strong>Shadab Ahamed</strong>, Collaborator A, Collaborator B</p>
+            <p class="pub-venue">Under preparation / conference submission</p>
+            <p>
+              A project on improving stability and efficiency in flow matching through preconditioning and multiscale structure.
+            </p>
+            <div class="pub-links">
+              <a href="#">Paper</a>
+              <a href="#">Code</a>
+              <a href="#">Slides</a>
+            </div>
+          </article>
+
+          <article class="publication card" data-category="medical">
+            <div class="pub-top">
+              <span class="pub-tag">Medical Imaging</span>
+              <span class="pub-year">2025</span>
+            </div>
+            <h3>Deep Generative Priors for Medical Image Reconstruction</h3>
+            <p class="pub-authors"><strong>Shadab Ahamed</strong>, Collaborators</p>
+            <p class="pub-venue">Journal / Conference placeholder</p>
+            <p>
+              Research on deep priors and learned regularization for solving inverse problems in medical imaging.
+            </p>
+            <div class="pub-links">
+              <a href="#">Paper</a>
+              <a href="#">Code</a>
+              <a href="#">Poster</a>
+            </div>
+          </article>
+
+          <article class="publication card" data-category="geo">
+            <div class="pub-top">
+              <span class="pub-tag">Geophysics</span>
+              <span class="pub-year">2025</span>
+            </div>
+            <h3>AI for Geological and Geophysical Inversion</h3>
+            <p class="pub-authors"><strong>Shadab Ahamed</strong>, Collaborators</p>
+            <p class="pub-venue">Industry / academic collaboration</p>
+            <p>
+              Work on using modern ML methods to infer subsurface structures and improve mineral exploration workflows.
+            </p>
+            <div class="pub-links">
+              <a href="#">Summary</a>
+              <a href="#">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <p class="section-label">Projects</p>
+        <h2>Current and recent work</h2>
+        <div class="cards three-up">
+          <article class="card">
+            <h3>Flow Matching for Scientific Data</h3>
+            <p>Developing efficient training procedures and principled formulations for generative models in structured domains.</p>
+          </article>
+          <article class="card">
+            <h3>Medical Imaging Reconstruction</h3>
+            <p>Applying learned priors and inverse problem methods to PET, CT, MRI, and related modalities.</p>
+          </article>
+          <article class="card">
+            <h3>Geoscience AI</h3>
+            <p>Designing AI systems for subsurface understanding, geological interpretation, and exploration-scale inversion.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section">
+      <div class="container">
+        <p class="section-label">Teaching</p>
+        <h2>Courses and academic service</h2>
+        <div class="timeline">
+          <article class="timeline-item card">
+            <div>
+              <span class="timeline-year">2026</span>
+              <h3>EOSC 213 — Computational Methods for Geophysicists</h3>
+            </div>
+            <p>Instructor, University of British Columbia</p>
+          </article>
+          <article class="timeline-item card">
+            <div>
+              <span class="timeline-year">Earlier</span>
+              <h3>Teaching and Mentorship</h3>
+            </div>
+            <p>Add teaching assistant roles, mentoring, guest lectures, and curriculum work here.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-box">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Let’s connect</h2>
+          <p>
+            For collaborations, research discussions, or speaking opportunities, feel free to reach out.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:your-email@domain.com">your-email@domain.com</a>
+          <a class="contact-link" href="https://github.com/ahxmeds" target="_blank" rel="noreferrer">github.com/ahxmeds</a>
+          <a class="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn profile</a>
+          <a class="contact-link" href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Shadab Ahamed. All rights reserved.</p>
+      <p>Built for GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
